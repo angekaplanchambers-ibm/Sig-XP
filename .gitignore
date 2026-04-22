@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs (keep storybook-static for gh-pages deploy)
+showcase/dist/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/

@@ -7,6 +7,9 @@ const config: StorybookConfig = {
   stories: [
     '../stories/wireframes/**/*.stories.@(ts|tsx)',
   ],
+  staticDirs: [
+    { from: '../../Reference-Images', to: '/reference-images' },
+  ],
   addons: [
     '@storybook/addon-essentials',
     '@storybook/addon-a11y',
